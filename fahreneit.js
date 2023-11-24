@@ -13,6 +13,8 @@ function convertTofahreneit(tcelcius){
         return tfahreneight;
 
 }
+
+// Why is 'tcelcius' declared without 'cont, var or let'?
 tcelcius = 28;
 let fahreneight = convertTofahreneit(tcelcius);
 console.log(fahreneight);
